@@ -9,6 +9,7 @@ Créer une application basée sur une architecture micro-service qui permet de g
 
 3.Création de la Gateway Spring cloud Gateway avec une Configuration statique du système de routage
 /configuration dynamique des routes de la gateway:
+
 ![image](https://user-images.githubusercontent.com/100994320/208200059-b0a01b7b-f257-4b3f-a917-2dcc7ec27aec.png)
 
 4. Création de l'annuaire Eureka Discrovery Service
