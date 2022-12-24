@@ -5,32 +5,52 @@ Créer une application basée sur une architecture micro-service qui permet de g
 
 1.Création le micro-service customer-service qui permet de gérer les clients
 
-2.Création le micro-service inventory-service qui permet de gérer les produits
-
-3.Création de la Gateway Spring cloud Gateway avec une Configuration statique du système de routage
-/configuration dynamique des routes de la gateway:
-
 ![image](https://user-images.githubusercontent.com/100994320/208200059-b0a01b7b-f257-4b3f-a917-2dcc7ec27aec.png)
 
+
+2.Création le micro-service inventory-service qui permet de gérer les produits
+
+![prod](https://user-images.githubusercontent.com/100994320/209439696-79eaecd0-d0fb-472b-97c1-2c266260c2b1.JPG)
+
+3.Création de la Gateway Spring cloud Gateway avec une :
+
+-Configuration statique du système de routage:
+
+![gateway_stat](https://user-images.githubusercontent.com/100994320/209432806-799eb1ae-6a71-4416-b848-1f5363b2d179.JPG)
+
+-Configuration dynamique des routes de la gateway:
+
+![gateway_dyn](https://user-images.githubusercontent.com/100994320/209432814-0bcafdc7-9e9b-487b-89c5-ec8fb07fe3e7.JPG)
+
 4. Création de l'annuaire Eureka Discrovery Service
- 
+
+![eureka](https://user-images.githubusercontent.com/100994320/209435916-b7cf0dea-9226-463d-bc91-bd306167e813.JPG)
 
 6. Création du service de facturation Billing-Service en utilisant Open Feign
 
+![bill_serv](https://user-images.githubusercontent.com/100994320/209439709-63a73f14-2c3b-4809-b047-a4f61a956511.JPG)
+
 7. Création d'un client Web Angular (Clients, Produits, Factures):
    Donner la permission pour acceder aux données:
+   
    ![image](https://user-images.githubusercontent.com/100994320/208201246-20f4df65-7b41-4fd3-acda-acc550c73011.png)
 
 
-   -->Customers
-   ![IMG_2298](https://user-images.githubusercontent.com/100994320/208179410-92b38107-9d3e-48e7-bf06-9d9415a9dee9.jpg)
-   -->Products
-   ![PHOTO-2022-12-16-21-05-05](https://user-images.githubusercontent.com/100994320/208180376-cb30bf26-7567-4ea0-8a17-0cfe893f13d3.jpg)
-   -->Orders
-   ![IMG_2299](https://user-images.githubusercontent.com/100994320/208179436-5656c2f9-2db1-4254-b942-d4821b587f4c.jpg)
-   -->Bills
-   ![IMG_2300](https://user-images.githubusercontent.com/100994320/208179455-a40cc96f-5f86-4ae5-99ff-10e30bd83e70.jpg)
-   ![IMG_2301](https://user-images.githubusercontent.com/100994320/208179467-c7ebf414-7b58-4c85-8b47-3481cdd4fd91.jpg)
+    -->Customers
+    
+    ![front_cus](https://user-images.githubusercontent.com/100994320/209439732-760102f7-0440-4fb6-9a33-19eda778aedb.JPG)
+    
+    -->Products
+    
+    ![font_prod](https://user-images.githubusercontent.com/100994320/209439738-aa8451f3-7ea0-4fc4-bb0b-3f14fb254a61.JPG)   
+    
+    -->Orders
+    
+    ![orders](https://user-images.githubusercontent.com/100994320/209439783-0e5687d3-acdc-4ba7-9ed3-2823ecf6e3b0.JPG)
+    
+    -->Bill
+    
+    ![bi](https://user-images.githubusercontent.com/100994320/209439770-aa4f65c5-6b31-4343-b3dc-48ef39ab8944.JPG)
 
 8. Déployement du serveur keycloak :
 
