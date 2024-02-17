@@ -3,12 +3,12 @@ Objectif :
 Créer une application basée sur une architecture micro-service qui permet de gérer les factures contenant des produits et appartenant à un client.
 
 
-1.Création le micro-service customer-service qui permet de gérer les clients
+1.Création du micro-service customer-service qui permet de gérer les clients
 
 ![image](https://user-images.githubusercontent.com/100994320/208200059-b0a01b7b-f257-4b3f-a917-2dcc7ec27aec.png)
 
 
-2.Création le micro-service inventory-service qui permet de gérer les produits
+2.Création du micro-service inventory-service qui permet de gérer les produits
 
 ![prod](https://user-images.githubusercontent.com/100994320/209439696-79eaecd0-d0fb-472b-97c1-2c266260c2b1.JPG)
 
