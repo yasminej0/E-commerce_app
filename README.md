@@ -31,6 +31,7 @@ Créer une application basée sur une architecture micro-service qui permet de g
 ![bill_serv](https://user-images.githubusercontent.com/100994320/209439709-63a73f14-2c3b-4809-b047-a4f61a956511.JPG)
 
 7. Création d'un client Web Angular (Clients, Produits, Factures):
+   
    Donner la permission pour acceder aux données:
    
    ![image](https://user-images.githubusercontent.com/100994320/208201246-20f4df65-7b41-4fd3-acda-acc550c73011.png)
@@ -52,7 +53,7 @@ Créer une application basée sur une architecture micro-service qui permet de g
     
     ![bi](https://user-images.githubusercontent.com/100994320/209439770-aa4f65c5-6b31-4343-b3dc-48ef39ab8944.JPG)
 
-8. Déployement du serveur keycloak :
+9. Déployement du serveur keycloak :
 
      ![Capture](https://user-images.githubusercontent.com/100994320/208163517-6cf26b3c-7cfc-464f-aec4-eac3fabdb399.JPG)
 
@@ -64,17 +65,18 @@ Créer une application basée sur une architecture micro-service qui permet de g
      
      ![users_keycloak](https://user-images.githubusercontent.com/100994320/208172126-644552f7-61ce-4f62-986a-180aa88983af.JPG)
 
-     - Création des rôles / Affectaion les rôles aux utilisateurs
+     - Création des rôles / Affectaion les rôles aux utilisateurs:
 
      ![roles_keycloak](https://user-images.githubusercontent.com/100994320/208172155-13c21044-7535-445d-bfce-c9382d162fa9.JPG)
 
      
      - Test des différents modes d'authentification avec Postman en montrant les contenus de Access-Token, Refresh Token :
+       
      ![IMG_2294](https://user-images.githubusercontent.com/100994320/208172276-100b0c9c-f732-4bbf-9ad4-a7775f39f8ed.jpg)
      ![IMG_2293](https://user-images.githubusercontent.com/100994320/208172299-d3223e70-8c52-4505-a97a-e376f47dfc5a.jpg)
 
      
-9. Sécuriser les micro-services et le frontend angular en déployant les adaptateurs Keycloak
+10. Sécuriser les micro-services et le frontend angular en déployant les adaptateurs Keycloak
 
 
 
